@@ -1,0 +1,70 @@
+// Specific CSS for your home-page
+.container {
+
+  min-height: calc(100vh - 70px - 100px);
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #9a938e;
+}
+
+.category {
+  border: 1px solid #9a938e;
+  background-color: #e7e2dd;
+  padding: 15px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  min-height: 300px;
+
+  & .category-title {
+    display: flex !important;
+    justify-content: space-around;
+    font-style: bold;
+    color: #2a2927;
+    font-size: 24px;
+
+
+  }
+
+  & .category-row {
+    display: flex !important;
+    justify-content: space-around;
+  }
+
+  i {
+    padding: 10px;
+    color: #2a2927;
+  }
+
+}
+
+
+
+.center-element{
+  text-align: center;
+}
+
+.category-left-block {
+}
+
+
+
+.category-right-block {
+
+}
+
+.profile-picture {
+  height: 200px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}

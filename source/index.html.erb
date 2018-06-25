@@ -1,23 +1,135 @@
----
-title: Welcome to Middleman
----
+<div class="container">
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" class="middleman-logo" aria-labelledby="middleman-logo__title" role="img">
-  <title id="middleman-logo__title">Middleman</title>
-  <path class="middleman-logo__top-left-bar" fill-opacity=".45" d="M0 40L200 0v30L0 60z"/>
-  <path class="middleman-logo__top-right-bar" fill="#fff" d="M200 0l200 40v20L200 30z"/>
-  <path class="middleman-logo__left-m" fill-opacity=".45" d="M0 78v184l45 5V152l45 83 47-83v129l53 7V52l-57 8-43 83-43-70z"/>
-  <path class="middleman-logo__right-m" fill="#fff" d="M400 78v184l-45 5V152l-45 83-47-83v129l-53 7V52l57 8 43 83 43-70z"/>
-  <path class="middleman-logo__bottom-left-bar" fill-opacity=".45" d="M0 300l200 40v-30L0 280z"/>
-  <path class="middleman-logo__bottom-right-bar" fill="#fff" d="M200 340l200-40v-20l-200 30z"/>
-</svg>
+  <div class="banner">
+    <div id="slider" class="banner-gardiant-shadow">
+      <figure>
+        <%= image_tag "femme_epaule.jpg" %>
+        <%= image_tag "dos.jpg" %>
+        <%= image_tag "nuque.jpg" %>
+        <%= image_tag "pied.jpg" %>
+        <%= image_tag "femme_epaule.jpg" %>
+      </figure>
+    </div>
+    <div class="banner-content">
+      <div class="banner-links-row">
+        <h1>Antoine de Vesvrotte Osteopathe</h1>
+  <!--       <p>Osteopathe ... et tellement plus !</p> -->
+        <div class="banner-links">
+          <a href="#doctor" class="btn btn-default">L'osteopathe</a>
+          <a href="#practical" class="btn btn-default">Venir consulter</a>
+          <a href="#osteopathy" class="btn btn-default">L'osteopathie</a>
+          <a href="#when_to_consult" class="btn btn-default">Quand consulter</a>
+        </div>
+      </div>
 
-<h1>
+      <div class="banner-links-row">
+        <h1>Une approche spécifique pour ...</h1>
+        <div class="banner-links">
+          <a href="#pregnant_woman" class="btn btn-default">une femme enceinte</a>
+          <a href="#for_baby" class="btn btn-default">un bébé</a>
+          <a href="#child" class="btn btn-default"> un enfant, adolescent</a>
+          <a href="#athletic" class="btn btn-default"> un sportif</a>
+          <a href="#old_person" class="btn btn-default"> une personne agée</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="category" id="doctor">
+      <div class="category-title">
+        <h2>Antoine, osteopathe</h2>
+      </div>
+      <div class="category-row">
+        <div class="col-xs-12 col-sm-4 category-left-block center-element">
+        <!-- <div class="category-left-block"> -->
+          <img class="profile-picture" src="https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/nuuluq2v70xfnizvqpq7.jpg">
+        </div>
+        <div class="col-xs-12 col-sm-8">
+        <!-- <div class="category-right-block"> -->
+          <p>J'aime bien ce métier. Diplomé depuis 5 ans de l'école d'osteopathie de Lyon, j'ai installé mon cabinet à Sathonay camp, où je prends le temps de vous accueillir, vous écouter, vous traiter, vous faire comprendre votre corps ...</p>
+          <p>Vous souhaitez d'avantages d'informations avant de planifier une première séance de soins : Contactez moi !</p>
+          <ul class="list-unstyled">
+            <li> <%= icon('phone-square')%> 0665656565</li>
+            <li> <%= icon('envelope') %>  antoine@devesvroote</li>
+            <li> <%= icon('calendar') %> <a target="_blank" href="https://www.doctolib.fr/osteopathe/sathonay-camp/antoine-de-vesvrotte">Rendez-vous en ligne avec Doctolib</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="category" id="practical-informations">
+      <div class="category-title">
+        <h2>Venir consulter</h2>
+      </div>
+      <div class="category-row">
+        <div class="col-xs-12 col-sm-6 category-left-block">
+          <p>Pour venir :</p>
+          <ul class="list-unstyled">
+            <li> en bus TCL : arrêt Sathonay Drapeau </li>
+            <li> <%= icon('bus')%> 33 depuis Croix-Rouuse </li>
+            <li> <%= icon('bus')%> 9 depuis Cordelier </li>
+            <li> <%= icon('bus')%> Z14 depuis la Soie </li>
+            <li> en train TER :</li>
+            <li> <%= icon('train')%> gare Sathonay-Rillieux</li>
+          </ul>
+
+          <p>Pour une séance de soins classqiue :</p>
+          <p>  Durée moyenne : 45 minutes</p>
+          <p>  Tarif : 55€ </p>
+          <p>Certaines mutuelles peuvent couvrir une partie du montant de la prestation, pensez à vous renseigner auprès d'eux.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 category-right-block">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.418545649347!2d4.871168550871246!3d45.82290217900421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f495664242312d%3A0xc8fe9ec25f06e659!2sAntoine+de+Vesvrotte+Ostéopathe+69580+Sathonay-Camp!5e0!3m2!1sfr!2sfr!4v1522688263270" width="450" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+    <div class="category" id="osteopathy">
+      <div class="category-title">
+        <h2>L'osteopathie en quelques mots</h2>
+      </div>
+    </div>
+
+    <div class="category" id="when_to_consult">
+      <div class="category-title">
+        <h2>Quand consulter</h2>
+      </div>
+    </div>
+
+    <div class="category" id="pregnant_woman">
+      <div class="category-title">
+        <h2>La femme enceinte</h2>
+      </div>
+    </div>
+
+    <div class="category" id="child">
+      <div class="category-title">
+        <h2>L'enfant / l'adolescent</h2>
+      </div>
+    </div>
+
+    <div class="category" id="athletic">
+      <div class="category-title">
+        <h2>Le sportif</h2>
+      </div>
+    </div>
+
+    <div class="category" id="old_person">
+      <div class="category-title">
+        <h2>La personne agée</h2>
+      </div>
+    </div>
+
+
+</div>
+
+<!-- <h1>
   Middleman is Running
-</h1>
-
-<%= link_to(
-  "Read Documentation",
-  "https://middlemanapp.com/basics/templating_language/",
-  target: "_blank"
-) %>
+</h1> -->
