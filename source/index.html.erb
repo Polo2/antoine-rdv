@@ -1,5 +1,4 @@
 <div class="container">
-
   <div class="banner">
     <div id="slider" class="banner-gardiant-shadow">
       <figure>
@@ -13,7 +12,6 @@
     <div class="banner-content">
       <div class="banner-links-row">
         <h1>Antoine de Vesvrotte Osteopathe</h1>
-  <!--       <p>Osteopathe ... et tellement plus !</p> -->
         <div class="banner-links">
           <a href="#doctor" class="btn btn-default">L'osteopathe</a>
           <a href="#practical" class="btn btn-default">Venir consulter</a>
@@ -35,101 +33,87 @@
     </div>
   </div>
 
-
-    <div class="category" id="doctor">
-      <div class="category-title">
-        <h2>Antoine, osteopathe</h2>
+  <div class="category" id="doctor">
+    <div class="category-title">
+      <h2>Antoine, osteopathe</h2>
+    </div>
+    <div class="category-row">
+      <div class="col-xs-12 col-sm-4 category-left-block center-element">
+        <img class="profile-picture" src="https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/nuuluq2v70xfnizvqpq7.jpg">
       </div>
-      <div class="category-row">
-        <div class="col-xs-12 col-sm-4 category-left-block center-element">
-        <!-- <div class="category-left-block"> -->
-          <img class="profile-picture" src="https://res.cloudinary.com/doctolib/image/upload/w_1024,h_700,c_limit/nuuluq2v70xfnizvqpq7.jpg">
+      <div class="col-xs-12 col-sm-8">
+        <p>J'aime bien ce métier. Diplomé depuis 5 ans de l'école d'osteopathie de Lyon, j'ai installé mon cabinet à Sathonay camp, où je prends le temps de vous accueillir, vous écouter, vous traiter, vous faire comprendre votre corps ...</p>
+        <p>Vous souhaitez d'avantages d'informations avant de planifier une première séance de soins : Contactez moi !</p>
+        <ul class="list-unstyled">
+          <li> <%= icon('phone-square')%> 0665656565</li>
+          <li> <%= icon('envelope') %>  antoine@devesvroote</li>
+          <li> <%= icon('calendar') %> <a target="_blank" href="https://www.doctolib.fr/osteopathe/sathonay-camp/antoine-de-vesvrotte">Rendez-vous en ligne avec Doctolib</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="category" id="practical-informations">
+    <div class="category-title">
+      <h2>Venir consulter</h2>
+    </div>
+    <div class="category-row">
+      <div class="col-xs-12 col-sm-6 category-left-block">
+        <p>Pour venir :</p>
+        <ul class="list-unstyled">
+          <li> en bus TCL : arrêt Sathonay Drapeau </li>
+          <li> <%= icon('bus')%> 33 depuis Croix-Rouuse </li>
+          <li> <%= icon('bus')%> 9 depuis Cordelier </li>
+          <li> <%= icon('bus')%> Z14 depuis la Soie </li>
+          <li> en train TER :</li>
+          <li> <%= icon('train')%> gare Sathonay-Rillieux</li>
+        </ul>
+
+        <p>Pour une séance de soins classqiue :</p>
+        <p>  Durée moyenne : 45 minutes</p>
+        <p>  Tarif : 55€ </p>
+        <p>Certaines mutuelles peuvent couvrir une partie du montant de la prestation, pensez à vous renseigner auprès d'eux.</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 category-right-block">
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.418545649347!2d4.871168550871246!3d45.82290217900421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f495664242312d%3A0xc8fe9ec25f06e659!2sAntoine+de+Vesvrotte+Ostéopathe+69580+Sathonay-Camp!5e0!3m2!1sfr!2sfr!4v1522688263270" width="450" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <div class="col-xs-12 col-sm-8">
-        <!-- <div class="category-right-block"> -->
-          <p>J'aime bien ce métier. Diplomé depuis 5 ans de l'école d'osteopathie de Lyon, j'ai installé mon cabinet à Sathonay camp, où je prends le temps de vous accueillir, vous écouter, vous traiter, vous faire comprendre votre corps ...</p>
-          <p>Vous souhaitez d'avantages d'informations avant de planifier une première séance de soins : Contactez moi !</p>
-          <ul class="list-unstyled">
-            <li> <%= icon('phone-square')%> 0665656565</li>
-            <li> <%= icon('envelope') %>  antoine@devesvroote</li>
-            <li> <%= icon('calendar') %> <a target="_blank" href="https://www.doctolib.fr/osteopathe/sathonay-camp/antoine-de-vesvrotte">Rendez-vous en ligne avec Doctolib</a></li>
-          </ul>
-        </div>
       </div>
     </div>
+  </div>
 
-    <div class="category" id="practical-informations">
-      <div class="category-title">
-        <h2>Venir consulter</h2>
-      </div>
-      <div class="category-row">
-        <div class="col-xs-12 col-sm-6 category-left-block">
-          <p>Pour venir :</p>
-          <ul class="list-unstyled">
-            <li> en bus TCL : arrêt Sathonay Drapeau </li>
-            <li> <%= icon('bus')%> 33 depuis Croix-Rouuse </li>
-            <li> <%= icon('bus')%> 9 depuis Cordelier </li>
-            <li> <%= icon('bus')%> Z14 depuis la Soie </li>
-            <li> en train TER :</li>
-            <li> <%= icon('train')%> gare Sathonay-Rillieux</li>
-          </ul>
-
-          <p>Pour une séance de soins classqiue :</p>
-          <p>  Durée moyenne : 45 minutes</p>
-          <p>  Tarif : 55€ </p>
-          <p>Certaines mutuelles peuvent couvrir une partie du montant de la prestation, pensez à vous renseigner auprès d'eux.</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 category-right-block">
-          <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.418545649347!2d4.871168550871246!3d45.82290217900421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f495664242312d%3A0xc8fe9ec25f06e659!2sAntoine+de+Vesvrotte+Ostéopathe+69580+Sathonay-Camp!5e0!3m2!1sfr!2sfr!4v1522688263270" width="450" height="340" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-        </div>
-
-      </div>
+  <div class="category" id="osteopathy">
+    <div class="category-title">
+      <h2>L'osteopathie en quelques mots</h2>
     </div>
+  </div>
 
-
-
-
-    <div class="category" id="osteopathy">
-      <div class="category-title">
-        <h2>L'osteopathie en quelques mots</h2>
-      </div>
+  <div class="category" id="when_to_consult">
+    <div class="category-title">
+      <h2>Quand consulter</h2>
     </div>
+  </div>
 
-    <div class="category" id="when_to_consult">
-      <div class="category-title">
-        <h2>Quand consulter</h2>
-      </div>
+  <div class="category" id="pregnant_woman">
+    <div class="category-title">
+      <h2>La femme enceinte</h2>
     </div>
+  </div>
 
-    <div class="category" id="pregnant_woman">
-      <div class="category-title">
-        <h2>La femme enceinte</h2>
-      </div>
+  <div class="category" id="child">
+    <div class="category-title">
+      <h2>L'enfant / l'adolescent</h2>
     </div>
+  </div>
 
-    <div class="category" id="child">
-      <div class="category-title">
-        <h2>L'enfant / l'adolescent</h2>
-      </div>
+  <div class="category" id="athletic">
+    <div class="category-title">
+      <h2>Le sportif</h2>
     </div>
+  </div>
 
-    <div class="category" id="athletic">
-      <div class="category-title">
-        <h2>Le sportif</h2>
-      </div>
+  <div class="category" id="old_person">
+    <div class="category-title">
+      <h2>La personne agée</h2>
     </div>
-
-    <div class="category" id="old_person">
-      <div class="category-title">
-        <h2>La personne agée</h2>
-      </div>
-    </div>
-
-
+  </div>
 </div>
-
-<!-- <h1>
-  Middleman is Running
-</h1> -->

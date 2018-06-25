@@ -2,17 +2,16 @@ source 'https://rubygems.org'
 
 gem 'middleman', '~> 4.2'
 gem 'middleman-autoprefixer', '~> 2.7'
-gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
-gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
+gem 'middleman-sprockets'
+gem 'middleman-deploy', git: 'https://github.com/lewagon/middleman-deploy.git'
+gem 'pry-byebug', require: true
+
+# le wagon Assets
+gem 'font-awesome-middleman'
+gem 'font-awesome-sass'
+gem 'bootstrap-sass'
+gem 'jquery-middleman'
 
 # google Geocode
 gem 'geocoder'
 gem 'gmaps4rails'
-
-# le wagon custom setup
-gem 'autoprefixer-rails'
-gem 'bootstrap-sass' # Bootstrap v3
-gem 'font-awesome-sass'
-
-gem 'pg', '~> 0.18'
-gem 'devise'
